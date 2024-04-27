@@ -1,0 +1,28 @@
+div {
+    text-align: center;
+    margin: 0 auto;
+    width: 450px;
+    background-color: #c3c0c0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #4b5c5b;
+    color: white;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    width: calc(100% - 15px);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3a4746;
+    transform: scale(1.1);
+}
+
+body {
+    background-color: #f4f4f4;
+}
